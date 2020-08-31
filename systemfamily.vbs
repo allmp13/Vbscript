@@ -1,7 +1,7 @@
 OsName = GetShortOsName()
 If OsName = "Windows 10" Then 
 	MsgBox "Exécution avec " & OsName, 64, "Système d'exploitation"
-	' Votre code pour Windows 10
+	' Votre code pour Windows 10 ici
     strComputer = "."
  
 Set objWMIService = GetObject("winmgmts:" _
@@ -17,7 +17,7 @@ Next
 
 Else
 	MsgBox "Exécution avec " & OsName, 64, "Système d'exploitation"
-	' Votre code pour les autres systèmes
+	' Votre code pour les autres systèmes ici
     Dim wmiObject
 Set wmiObject = GetObject( _
  "WINMGMTS:\\.\ROOT\WMI:" + _

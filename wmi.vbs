@@ -1,4 +1,5 @@
 strComputer = "."
+strComputer = "."
  
 Set objWMIService = GetObject("winmgmts:" _
  & "{impersonationLevel=impersonate}!\\" _
